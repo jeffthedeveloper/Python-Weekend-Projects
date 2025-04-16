@@ -1,3 +1,5 @@
+![Certificado](https://github.com/jeffthedeveloper/Python-Weekend-Projects/blob/main/spotify-data-pipeline/assets/certificate.png?raw=true)
+
 # Python REST API Modernizada
 
 [![Python Version](https://img.shields.io/badge/python-3.9%2B-blue.svg)](https://www.python.org/)
