@@ -9,9 +9,9 @@ This repository contains a collection of Python projects designed for weekend-fo
 * **Description:** Explores COVID-19 pandemic trends, correlations, and potential relationships with other datasets.
 * **Technologies:** pandas, matplotlib, seaborn
 * **Key Skills:** Data cleaning, data aggregation, data visualization, exploratory data analysis
-* **Data Source:** \[*Specify your data source here. If it's the "Covid19\_Confirmed\_dataset.csv" and "covid19\_deaths\_dataset.csv" add a link to the original source if available*]
+* **Data Source:** "Covid19\_Confirmed\_dataset.csv" and "covid19\_deaths\_dataset.csv" 
 * **Files:**
-    * `covid19_analysis.py` (or whatever your script is named)
+    * `covid19_analysis.py` 
     * `./Dataset/Covid19_Confirmed_dataset.csv`
     * `./Dataset/covid19_deaths_dataset.csv`
 * **How to Run:**
@@ -28,15 +28,15 @@ This repository contains a collection of Python projects designed for weekend-fo
 
 * **Files:**
 
-**confusion_matrix.png** - Image of the confusion matrix from the model.
-
-**dataset/** - Folder containing the data used for training and testing.
-
-**LICENSE** - License file for the project (MIT).
-
-**README.md** - This file containing project information.
-
-**requirements.txt** - List of dependencies required for the project.
+   * ´confusion_matrix.png´ - Image of the confusion matrix from the model.
+   
+   * ´dataset/´ - Folder containing the data used for training and testing.
+   
+   * ´LICENSE´ - License file for the project (MIT).
+   
+   * ´README.md´ - This file containing project information.
+   
+   * ´requirements.txt´ - List of dependencies required for the project.
 
 **Tweet_Emotion_Recognition.ipynb** - Jupyter notebook containing the code for building, training, and evaluating the model.
 
