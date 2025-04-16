@@ -46,20 +46,7 @@ This repository contains a collection of Python projects designed for weekend-fo
     2.  Install the required libraries: `pip install tensorflow \[other libraries]`
     3.  Follow the instructions in the project's folder.
 
-### 3. Create Your First Python Program From UST
-
-* **Description:** Introductory Python programming project (focused on UST data or a specific application).
-* **Technologies:** Python basics
-* **Key Skills:** Basic Python syntax, data manipulation, \[*Add specific skills*]
-* **Data Source:** \[*Specify data source if applicable*]
-* **Files:**
-
-
-* **How to Run:**
-    1.  Ensure you have Python 3.x installed.
-    2.  Run the script: `python your_script.py`
-
-### 4. ETL Pipelines with Python: Gather Spotify Data
+### 3. ETL Pipelines with Python: Gather Spotify Data
 
 * **Description:** This project builds and orchestrates ETL (Extract, Transform, Load) pipelines that interact with the Spotify API. The goal is to gather and structure music-related data for analytical and processing purposes.
 * **Technologies:** Python, Docker, Apache Airflow, Spotipy, Pandas, JSON, PostgreSQL
@@ -117,7 +104,7 @@ To enhance robustness and accuracy, future iterations of this pipeline could inc
 This project provides an excellent foundation for anyone aiming to explore real-world data engineering concepts using Spotify's rich API ecosystem.
 
 
-### 5. API Configuration in Python: Create a REST API
+### 4. API Configuration in Python: Create a REST API
 
 * **Description:** Develops RESTful APIs using Python frameworks.
 * **Technologies:** Python, Flask or FastAPI
@@ -129,7 +116,7 @@ This project provides an excellent foundation for anyone aiming to explore real-
     2.  Install the required libraries: `pip install Flask` or `pip install FastAPI`
     3.  Run the API application.
 
-### 6. Best Practices for Data Processing in Big Data
+### 5. Best Practices for Data Processing in Big Data
 
 * **Description:** Implements efficient data processing techniques for large-scale datasets.
 * **Technologies:** Python, \[*Add libraries like PySpark if applicable*]
