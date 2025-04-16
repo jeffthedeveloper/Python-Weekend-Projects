@@ -1,6 +1,6 @@
 # Spotify ETL Pipeline: Data Engineering Project
 
-![Project Banner](https://raw.githubusercontent.com/jeffthedeveloper/Python-Weekend-Projects/main/assets/banner.png)
+![Project Basis](https://github.com/jeffthedeveloper/Python-Weekend-Projects/blob/main/spotify-data-pipeline/assets/certificate.png?raw=true)
 
 A sophisticated ETL pipeline powered by Apache Airflow that extracts, transforms, and loads Spotify listening data to uncover valuable insights into user behavior and streaming patterns.
 
@@ -42,23 +42,23 @@ A sophisticated ETL pipeline powered by Apache Airflow that extracts, transforms
 ## System Architecture
 
 ### Batch Processing Framework
-![Architecture Diagram](https://raw.githubusercontent.com/jeffthedeveloper/Python-Weekend-Projects/main/assets/architecturaldiagram.jpeg)
+![Architecture Diagram](https://github.com/jeffthedeveloper/Python-Weekend-Projects/blob/main/spotify-data-pipeline/assets/ArchitetureDiagram.png?raw=true)
 
 ### Data Model
 Star schema optimized for analytical queries:
-![Star Schema](https://raw.githubusercontent.com/jeffthedeveloper/Python-Weekend-Projects/main/assets/star_schema.png)
+![Schema](https://github.com/jeffthedeveloper/Python-Weekend-Projects/blob/main/spotify-data-pipeline/assets/schema.png?raw=true)
 
 ### Workflow Visualization
 Airflow DAG execution flow:
-![Airflow DAG Tasks](https://raw.githubusercontent.com/jeffthedeveloper/Python-Weekend-Projects/main/assets/runningtask.gif)
+![Airflow DAG Tasks](https://github.com/jeffthedeveloper/Python-Weekend-Projects/blob/main/spotify-data-pipeline/assets/Tasks.jpeg?raw=true)
 
 ## Analytics Dashboard
 
 ### Main Overview
-![Spotify Dashboard](https://raw.githubusercontent.com/jeffthedeveloper/Python-Weekend-Projects/main/assets/spotifydashboard.jpeg)
+![Spotify Dashboard](https://github.com/jeffthedeveloper/Python-Weekend-Projects/blob/main/spotify-data-pipeline/assets/spotifydashboard.png?raw=true)
 
-### Artist Drill-Down
-![Artist Dashboard](https://raw.githubusercontent.com/jeffthedeveloper/Python-Weekend-Projects/main/assets/artistdashboard.jpeg)
+### Artist Jeff The Developer
+![Artist Credits](https://github.com/jeffthedeveloper/Python-Weekend-Projects/blob/main/spotify-data-pipeline/assets/Automations.png?raw=true)
 
 ## Configuration
 
