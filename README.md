@@ -22,12 +22,26 @@ This repository contains a collection of Python projects designed for weekend-fo
 ### 2. Tweet Emotion Recognition with TensorFlow
 
 * **Description:** Implements machine learning models for sentiment analysis of Twitter data.
-* **Technologies:** TensorFlow, \[*Add other relevant libraries*]
+* **Technologies:** TensorFlow, Keras, Numpy, Matplotlib, scikit-learn, Jupyter Notebook
 * **Key Skills:** Natural language processing (NLP), model building, training, and evaluation, sentiment analysis
-* **Data Source:** \[*Specify your data source here*]
+* **Data Source:** Can be founded at [Kaggle Emotions dataset for NLP](https://www.kaggle.com/datasets/praveengovi/emotions-dataset-for-nlp)
+
 * **Files:**
-    * \[*List your Python files and any data files*]
+
+**confusion_matrix.png** - Image of the confusion matrix from the model.
+
+**dataset/** - Folder containing the data used for training and testing.
+
+**LICENSE** - License file for the project (MIT).
+
+**README.md** - This file containing project information.
+
+**requirements.txt** - List of dependencies required for the project.
+
+**Tweet_Emotion_Recognition.ipynb** - Jupyter notebook containing the code for building, training, and evaluating the model.
+
 * **How to Run:**
+  
     1.  Ensure you have Python 3.x and TensorFlow installed.
     2.  Install the required libraries: `pip install tensorflow \[other libraries]`
     3.  Follow the instructions in the project's folder.
@@ -39,7 +53,8 @@ This repository contains a collection of Python projects designed for weekend-fo
 * **Key Skills:** Basic Python syntax, data manipulation, \[*Add specific skills*]
 * **Data Source:** \[*Specify data source if applicable*]
 * **Files:**
-    * \[*List your Python files*]
+
+
 * **How to Run:**
     1.  Ensure you have Python 3.x installed.
     2.  Run the script: `python your_script.py`
