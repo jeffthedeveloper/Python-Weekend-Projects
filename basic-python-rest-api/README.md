@@ -1,59 +1,149 @@
 ![Certificado](https://github.com/jeffthedeveloper/Python-Weekend-Projects/blob/main/spotify-data-pipeline/assets/certificate.png?raw=true)
 
-# Python REST API Modernizada
+# Modern Python REST API
 
 [![Python Version](https://img.shields.io/badge/python-3.9%2B-blue.svg)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.78.0-green.svg)](https://fastapi.tiangolo.com/)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-Repositório: [basic-python-rest-api](https://github.com/jeffthedeveloper/Python-Weekend-Projects/basic-python-rest-api)  
-Perfil GitHub: [jeffthedeveloper](https://github.com/jeffthedeveloper)
+Repository: [basic-python-rest-api](https://github.com/jeffthedeveloper/Python-Weekend-Projects/basic-python-rest-api)  
+GitHub Profile: [jeffthedeveloper](https://github.com/jeffthedeveloper)
 
-Exemplo modernizado de como criar uma API REST em Python com FastAPI, incluindo todas as melhores práticas atuais.
+## Key API Components
 
-## Principais Componentes da API
-
-✅ **Operações CRUD completas**  
-✅ **Validação de dados com Pydantic**  
-✅ **Logging estruturado**  
-✅ **Banco de dados assíncrono**  
-✅ **Tratamento de erros padronizado**  
-✅ **Documentação automática (Swagger/ReDoc)**  
-✅ **Autenticação JWT**  
+✅ **Complete CRUD operations**  
+✅ **Data validation with Pydantic**  
+✅ **Structured logging**  
+✅ **Async database**  
+✅ **Standardized error handling**  
+✅ **Automatic documentation (Swagger/ReDoc)**  
+✅ **JWT authentication**  
 ✅ **Health checks**  
-✅ **Testes automatizados**  
-✅ **Containerização com Docker**  
-✅ **Configuração por ambiente**
+✅ **Automated testing**  
+✅ **Docker containerization**  
+✅ **Environment configuration**
 
-## Tecnologias Utilizadas
+## Technologies Used
 
-- 🚀 **FastAPI**: Framework moderno e rápido para construção de APIs
-- 🐘 **SQLAlchemy 2.0**: ORM com suporte a async/await
-- 🔐 **JWT**: Autenticação segura
-- 📊 **Pydantic**: Validação de dados e serialização
-- 🐳 **Docker**: Containerização da aplicação
-- 📝 **OpenAPI**: Documentação automática
-- ✅ **Pytest**: Testes automatizados
+- 🚀 **FastAPI**: Modern, fast framework for building APIs
+- 🐘 **SQLAlchemy 2.0**: Async/await ORM support
+- 🔐 **JWT**: Secure authentication
+- 📊 **Pydantic**: Data validation and serialization
+- 🐳 **Docker**: Application containerization
+- 📝 **OpenAPI**: Automatic documentation
+- ✅ **Pytest**: Automated testing
 
-## Instalação
+## Project Structure
 
-### Pré-requisitos
+```
+basic-python-rest-api/
+├── api/                   # Application source code
+│   ├── config/            # Configuration
+│   ├── dependencies/      # Dependency injection
+│   ├── models/            # Database models
+│   ├── routers/           # API endpoints
+│   ├── schemas/           # Pydantic schemas
+│   ├── services/          # Business logic
+│   ├── tests/             # Automated tests
+│   └── utils/             # Utilities
+├── .env                   # Environment variables
+├── docker-compose.yml     # Docker configuration
+├── Dockerfile             # Docker image definition
+├── pyproject.toml         # Dependencies and configuration
+└── README.md              # This file
+```
 
-- Python 3.9+
-- Docker (opcional)
-- Poetry (gerenciador de dependências)
+---
 
-### Configuração Inicial
+## Español
 
-1. Clone o repositório:
+### API REST Moderna en Python
 
+Ejemplo modernizado de cómo crear una API REST en Python con FastAPI, incluyendo todas las mejores prácticas actuales.
+
+#### Instalación
+
+1. Clonar el repositorio:
 ```bash
 git clone https://github.com/jeffthedeveloper/Python-Weekend-Projects/basic-python-rest-api.git
 cd basic-python-rest-api
 ```
 
-2. Configure o ambiente virtual e instale as dependências:
+2. Configurar entorno virtual e instalar dependencias:
+```bash
+python -m venv venv
+source venv/bin/activate  # Linux/Mac
+# o venv\Scripts\activate  # Windows
 
+pip install poetry
+poetry install
+```
+
+#### Endpoints Principales
+
+| Método | Endpoint          | Descripción                  |
+|--------|-------------------|------------------------------|
+| GET    | /examples         | Listar todos los ejemplos    |
+| POST   | /examples         | Crear nuevo ejemplo          |
+| GET    | /examples/{id}    | Obtener ejemplo específico   |
+
+#### Contribución
+Las contribuciones son bienvenidas. Por favor siga el proceso estándar de fork y pull request.
+
+---
+
+## English
+
+### Modern Python REST API
+
+Modern example of how to create a REST API in Python with FastAPI, including all current best practices.
+
+#### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/jeffthedeveloper/Python-Weekend-Projects/basic-python-rest-api.git
+cd basic-python-rest-api
+```
+
+2. Set up virtual environment and install dependencies:
+```bash
+python -m venv venv
+source venv/bin/activate  # Linux/Mac
+# or venv\Scripts\activate  # Windows
+
+pip install poetry
+poetry install
+```
+
+#### Main Endpoints
+
+| Method | Endpoint          | Description                  |
+|--------|-------------------|------------------------------|
+| GET    | /examples         | List all examples            |
+| POST   | /examples         | Create new example           |
+| GET    | /examples/{id}    | Get specific example         |
+
+#### Contribution
+Contributions are welcome. Please follow standard fork and pull request process.
+
+---
+
+## Português
+
+### API REST Moderna em Python
+
+Exemplo modernizado de como criar uma API REST em Python com FastAPI, incluindo todas as melhores práticas atuais.
+
+#### Instalação
+
+1. Clonar o repositório:
+```bash
+git clone https://github.com/jeffthedeveloper/Python-Weekend-Projects/basic-python-rest-api.git
+cd basic-python-rest-api
+```
+
+2. Configurar ambiente virtual e instalar dependências:
 ```bash
 python -m venv venv
 source venv/bin/activate  # Linux/Mac
@@ -63,111 +153,20 @@ pip install poetry
 poetry install
 ```
 
-3. Configure as variáveis de ambiente:
+#### Endpoints Principais
 
-```bash
-cp .env.example .env
-# Edite o .env conforme necessário
-```
+| Método | Endpoint          | Descrição                  |
+|--------|-------------------|----------------------------|
+| GET    | /examples         | Listar todos os exemplos   |
+| POST   | /examples         | Criar novo exemplo         |
+| GET    | /examples/{id}    | Obter exemplo específico   |
 
-## Executando a API
+#### Contribuição
+Contribuições são bem-vindas. Por favor siga o processo padrão de fork e pull request.
 
-### Modo Desenvolvimento (com live reload):
+## License
+Distributed under the MIT License. See `LICENSE` for more information.
 
-```bash
-uvicorn api.main:app --reload
-```
-
-Acesse a documentação interativa:
-- Swagger UI: http://localhost:8000/docs
-- ReDoc: http://localhost:8000/redoc
-
-### Com Docker:
-
-```bash
-docker-compose up -d --build
-```
-
-## Estrutura do Projeto
-
-```
-basic-python-rest-api/
-├── api/                   # Código fonte da aplicação
-│   ├── config/            # Configurações
-│   ├── dependencies/      # Injeção de dependências
-│   ├── models/            # Modelos de banco de dados
-│   ├── routers/           # Endpoints da API
-│   ├── schemas/           # Schemas Pydantic
-│   ├── services/          # Lógica de negócio
-│   ├── tests/             # Testes automatizados
-│   └── utils/             # Utilitários
-├── .env                   # Variáveis de ambiente
-├── docker-compose.yml     # Configuração Docker
-├── Dockerfile             # Definição da imagem Docker
-├── pyproject.toml         # Dependências e configuração
-└── README.md              # Este arquivo
-```
-
-## Endpoints Principais
-
-| Método | Endpoint          | Descrição                     |
-|--------|-------------------|-------------------------------|
-| GET    | /examples         | Lista todos os exemplos       |
-| POST   | /examples         | Cria um novo exemplo          |
-| GET    | /examples/{id}    | Obtém um exemplo específico   |
-| PUT    | /examples/{id}    | Atualiza um exemplo           |
-| DELETE | /examples/{id}    | Remove um exemplo             |
-| GET    | /health           | Verifica saúde da aplicação   |
-
-## Testes
-
-Para executar os testes:
-
-```bash
-pytest
-```
-
-## Configuração Avançada
-
-### Variáveis de Ambiente
-
-| Variável                     | Descrição                              | Padrão                          |
-|------------------------------|----------------------------------------|---------------------------------|
-| DATABASE_URL                 | URL de conexão com o banco de dados    | postgresql+asyncpg://...        |
-| SECRET_KEY                   | Chave secreta para JWT                 | secret-key-change-in-production |
-| ACCESS_TOKEN_EXPIRE_MINUTES  | Tempo de expiração do token JWT        | 30                              |
-| LOG_LEVEL                    | Nível de logging (DEBUG, INFO, etc.)   | INFO                            |
-
-### Banco de Dados
-
-A API suporta PostgreSQL de forma nativa. Para configurar:
-
-1. Instale o PostgreSQL
-2. Crie um banco de dados
-3. Atualize o `DATABASE_URL` no `.env`
-
-Para migrações de banco de dados, utilizamos Alembic:
-
-```bash
-alembic revision --autogenerate -m "descrição da migração"
-alembic upgrade head
-```
-
-## Contribuição
-
-Contribuições são bem-vindas! Siga os passos:
-
-1. Faça um fork do projeto
-2. Crie uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
-3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
-4. Push para a branch (`git push origin feature/AmazingFeature`)
-5. Abra um Pull Request
-
-## Licença
-
-Distribuído sob a licença MIT. Veja `LICENSE` para mais informações.
-
-## Contato
-
+## Contact
 Jeff The Developer - [@jeffthedeveloper](https://github.com/jeffthedeveloper)  
-Link do Projeto: [https://github.com/jeffthedeveloper/Python-Weekend-Projects/basic-python-rest-api](https://github.com/jeffthedeveloper/Python-Weekend-Projects/basic-python-rest-api)
+Project Link: [https://github.com/jeffthedeveloper/Python-Weekend-Projects/basic-python-rest-api](https://github.com/jeffthedeveloper/Python-Weekend-Projects/basic-python-rest-api)
