@@ -61,17 +61,61 @@ This repository contains a collection of Python projects designed for weekend-fo
 
 ### 4. ETL Pipelines with Python: Gather Spotify Data
 
-* **Description:** Builds data pipelines to extract, transform, and load data from the Spotify API.
-* **Technologies:** Python, \[*Add relevant libraries for API interaction and data processing*]
-* **Key Skills:** ETL processes, API interaction, data transformation, data loading
-* **Data Source:** Spotify API
-* **Files:**
-    * \[*List your Python files and configuration files*]
+* **Description:** This project builds and orchestrates ETL (Extract, Transform, Load) pipelines that interact with the Spotify API. The goal is to gather and structure music-related data for analytical and processing purposes.
+* **Technologies:** Python, Docker, Apache Airflow, Spotipy, Pandas, JSON, PostgreSQL
+* **Key Skills:** Data pipeline development, API integration, automated workflows with Airflow, data transformation and persistence using SQL
+* **Data Source:** [Spotify Developer API](https://developer.spotify.com/documentation/web-api)
+
+* **Files and Structure:**
+  - `.env.example`: Template for environment variables including Spotify credentials.
+  - `.gitignore`: Specifies untracked files to ignore in version control.
+  - `airflow/`: Contains DAGs and Airflow-specific configuration for orchestrating ETL jobs.
+  - `assets/`: Stores visual and reference assets (e.g., diagrams, documentation).
+  - `config/`: Configuration settings for pipelines and environment.
+  - `data/`: Directory for storing processed or intermediate data.
+  - `docker-compose.yaml`: Used to spin up Docker containers for Airflow and supporting services.
+  - `Dockerfile.airflow`: Custom Dockerfile to build the Airflow environment.
+  - `example-raw-data.json`: Example of raw data retrieved from the Spotify API.
+  - `generate_env.sh`: Script to generate `.env` file from `.env.example`.
+  - `requirements.txt`: Lists Python dependencies.
+  - `scripts/`: Utility scripts for ETL steps or testing.
+  - `sql/`: SQL queries or schema definitions.
+
 * **How to Run:**
-    1.  Ensure you have Python 3.x installed.
-    2.  Install the required libraries: `pip install spotipy \[other libraries]`
-    3.  Set up your Spotify API credentials.
-    4.  Follow the instructions in the project's folder.
+  1. Ensure you have Python 3.x and Docker installed.
+  2. Clone this repository and navigate to the project folder.
+  3. Run `generate_env.sh` to generate your `.env` file with the correct environment variables.
+  4. Add your Spotify API credentials in the `.env` file.
+  5. Install the required libraries locally (optional for testing):  
+     ```bash
+     pip install spotipy pandas requests python-dotenv
+     ```
+  6. Start the Docker containers (Airflow, PostgreSQL, etc.):  
+     ```bash
+     docker-compose up --build
+     ```
+  7. Access the Airflow web interface at `http://localhost:8080` and trigger the ETL DAG.
+
+---
+
+## Commentary on Project Structure and Pipeline Design
+
+This ETL project is designed to ensure modularity, scalability, and reproducibility. Leveraging **Apache Airflow**, the workflow orchestration is handled through clearly defined DAGs, enabling easy scheduling, monitoring, and dependency management.
+
+One of the standout aspects is the use of Docker and environment variables to provide a fully containerized and configurable development setup. This enhances portability across machines and team members.
+
+The inclusion of an example JSON file (`example-raw-data.json`) offers a quick glance at the kind of data retrieved, aiding both debugging and development of downstream processes.
+
+Additionally, the separation of configuration, scripts, and SQL files follows best practices for managing complex data pipelines. This structure supports both experimentation and production deployment.
+
+To enhance robustness and accuracy, future iterations of this pipeline could include:
+
+- Validation checks on retrieved data
+- Logging and error-handling mechanisms within DAGs
+- Integration with a data warehouse for scalable analytics
+
+This project provides an excellent foundation for anyone aiming to explore real-world data engineering concepts using Spotify's rich API ecosystem.
+
 
 ### 5. API Configuration in Python: Create a REST API
 
