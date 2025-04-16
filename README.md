@@ -28,15 +28,15 @@ This repository contains a collection of Python projects designed for weekend-fo
 
 * **Files:**
 
-   * ´confusion_matrix.png´ - Image of the confusion matrix from the model.
+   * `confusion_matrix.png` - Image of the confusion matrix from the model.
    
-   * ´dataset/´ - Folder containing the data used for training and testing.
+   * `dataset/` - Folder containing the data used for training and testing.
    
-   * ´LICENSE´ - License file for the project (MIT).
+   * `LICENSE` - License file for the project (MIT).
    
-   * ´README.md´ - This file containing project information.
+   * `README.md` - This file containing project information.
    
-   * ´requirements.txt´ - List of dependencies required for the project.
+   * `requirements.txt` - List of dependencies required for the project.
 
 **Tweet_Emotion_Recognition.ipynb** - Jupyter notebook containing the code for building, training, and evaluating the model.
 
@@ -101,7 +101,7 @@ This repository contains a collection of Python projects designed for weekend-fo
 
 ## License
 
-\[*MIT License
+**MIT License**
 
 Copyright (c) 2023 Jefferson Mendes
 
@@ -122,5 +122,4 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-*]
 
