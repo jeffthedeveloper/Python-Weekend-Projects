@@ -99,23 +99,28 @@ This repository contains a collection of Python projects designed for weekend-fo
 
 ## How to Contribute
 
-\[*Add instructions on how others can contribute to your projects, if you're open to it.*]
-
 ## License
 
-\[*Specify the license under which your code is released. For example: MIT License*]
+\[*MIT License
 
----
+Copyright (c) 2023 Jefferson Mendes
 
-**Important Notes for the `README.md`:**
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-* **Fill in the Blanks:** I've used placeholders like "\[Specify your data source here\]" and "\[List your Python files\]". Replace these with the actual details for each project.
-* **Accurate Instructions:** Make sure the "How to Run" instructions are precise and complete.
-* **Project Structure:** Organize your repository with a clear folder structure for each project.
-* **Dependencies:** List all necessary libraries for each project.
-* **Data Sources:** Provide clear information about where you obtained the data. If possible, link to the original source.
-* **Code Examples:** Consider adding short code snippets to illustrate key concepts or usage.
-* **Visuals:** If applicable, include screenshots or GIFs to showcase the project's output (especially for visualization or API projects).
-* **License:** Choose an open-source license (like the MIT License) to specify how others can use your code.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-This detailed `README.md` will significantly enhance your repository, making it more informative, user-friendly, and valuable for others.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+*]
+
