@@ -1,0 +1,17 @@
+# Requirements for Big Data Best Practices Project
+# Core dependencies
+pandas>=1.5.0
+numpy>=1.21.0
+jupyter>=1.0.0
+ipython>=8.0.0
+
+# Data processing
+pyarrow>=8.0.0  # Required for pandas optimizations
+
+# Utility packages
+tqdm>=4.65.0  # Progress bars (useful for data processing)
+python-dotenv>=0.21.0  # Environment variables management
+
+# Jupyter extensions
+jupyter-contrib-nbextensions>=0.5.1
+jupyter-nbextensions-configurator>=0.4.1
